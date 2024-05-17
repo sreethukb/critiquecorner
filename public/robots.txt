@@ -1,0 +1,25 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+<Router className="content">
+          <Route exact path="/" component={Getstarted} />
+          <Route path="/feedbackform/product" component={FeedbackProduct} />
+          <Route path="/feedbackform/service" component={FeedbackService} />
+        </Router>
+
+import FeedbackProduct from './components/feedbackform/FeedbackProduct';
+import FeedbackService from './components/feedbackform/FeedbackService';
+
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+
+if not working:
+<div>
+        <Navbar />
+        <Hero />
+        <Getstarted />
+        <AdminLogin />
+        <Contactus />
+        <Footer />
+      </div> 

@@ -1,0 +1,76 @@
+form {
+    padding-top: 20px;
+    max-width: 500px;
+    margin: 50px auto;
+    margin-top: 2%;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5%; 
+    background-color: #ff730028;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+}
+.feedback-product h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10%;
+    color: black;
+    z-index: 1;
+}
+/* styles.css */
+.input input{
+    font-size: 20px;
+}
+.input #feedback{
+    font-size: 20px;
+}
+button{
+    width: 25%;
+    padding: 10px;
+    background-color: #BE3030;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+button:hover {
+    background-color: #be303071;
+}
+button[type="submit"].submitted:hover {
+    background-color: #be303071;
+}
+.success-message {
+    color: green;
+    margin-top: 0;
+    z-index: 1;
+}
+.rating {
+    padding-top: 10px;
+    align-items: center;
+}
+
+.stars {
+    display: inline-block;
+    padding-top: 2px;
+    border: 0;
+}
+
+.stars input[type="radio"] {
+    display: none;
+}
+
+.stars label {
+    font-size: 60px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.stars label::before {
+    content: '\2605'; /* Unicode character for a star */
+}
+
+.stars input[type="radio"]:checked ~ label {
+    color: #DC5F00;
+}

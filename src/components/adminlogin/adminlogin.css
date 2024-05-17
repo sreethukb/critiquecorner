@@ -1,0 +1,53 @@
+.adminlogin-container{
+    background: url(../../assets/Lovepik_com-400338452-ins-minimalist-background.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+.login {
+    max-width: 500px;
+    max-height: 500px;
+    margin: 100px auto;
+    margin-top: 10%;
+    padding: 20px;
+    background-color: #ff730028;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Rubik", sans-serif;
+}
+.login h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #BE3030;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+}
+
+.login button:hover {
+    background-color: #be303071;
+}

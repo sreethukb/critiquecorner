@@ -1,0 +1,39 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background:  url(../../assets/meetingteam.jpg);
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+.hero-text{
+    padding-top: 14%;
+    position:static;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.hero h1{
+    font-size: 67px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.hero p{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+#typewriter{
+    color: #BE3030;
+    overflow: hidden;
+    border-right: 0.1em solid orange; 
+    white-space: nowrap;
+    letter-spacing: 0.01em; 
+    animation: typing 3s steps(40) infinite alternate;
+}

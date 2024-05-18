@@ -1,0 +1,117 @@
+.product-container{
+    background: url(../../assets/Lovepik_com-400338452-ins-minimalist-background.png);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 7%;
+    padding-top: 5%;
+}
+
+form[id="feedback-form"] {
+    padding-top: 25px;
+    max-width: 300px;
+    height: 380px;
+    margin: 50px auto;
+    margin-top: 2%;
+    padding-bottom: 10px;
+    text-align: center;
+    border: 0px;
+    border-radius: 5%; 
+    background-color: #ff730028;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+h2{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 130px;
+    color: black;
+    z-index: 1;
+}
+/* styles.css */
+
+.input input{   
+    font-size: 10px;
+    height: 10px;
+    width: 40%;
+    padding: 5px;
+}
+.input #feedback-for{
+    background-color: rgba(128, 128, 128, 0.357);
+}
+.input textarea{
+    width: 42%;
+    height: 30px;
+}
+label {
+    font-size: 15px;
+    text-align: center;
+}
+#feedback-form button{
+    width: 28%;
+    background-color: #BE3030;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+#feedback-form button:hover {
+    background-color: #be303071;
+}
+#feedback-form button[type="submit"].submitted:hover {
+    background-color: #be303071;
+}
+
+.rating label{
+    align-items: center;
+    padding-top: 0;
+}
+
+
+.stars {
+    display: inline-block;
+    border: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.stars input[type="radio"] {
+    display: none;
+}
+
+.stars label {
+    font-size: 35px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.stars label::before {
+    content: '\2605'; /* Unicode character for a star */
+}
+
+.stars input[type="radio"]:checked ~ label {
+    color: #DC5F00;
+}
+.success-message {
+    position: fixed;
+    top: 60px; /* Adjust this value based on your navbar height */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.message-content {
+    display: flex;
+    align-items: center;
+}
+
+.message-content span {
+    margin-right: 10px;
+    font-size: 18px;
+}
